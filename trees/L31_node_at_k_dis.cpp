@@ -38,7 +38,9 @@ void printTree(Node_tree *root, string indent = "", bool isLeft = true) {
   // Print left subtree
   printTree(root->left, indent + (isLeft ? "    " : "│   "), true);
 }
-
+vector<int> distanceK(Node_tree* root, Node_tree* target, int k) {
+    
+}
 int main() {
   Node_tree root = Node_tree(5);
   root.left = new Node_tree(6);
